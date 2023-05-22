@@ -1,0 +1,469 @@
+@font-face {
+    font-family: sweetSansPro;
+    src: url('./fonts/SweetSansProRegular.woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sweetSansPro;
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.mt-6 {
+    margin-top: 100px !important;
+}
+
+
+.mt-12 {
+    margin-top: 200px !important;
+}
+
+.mt-18 {
+    margin-top: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.description {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.description h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #173547;
+}
+
+.description p {
+    display: block;
+    font-size: 29px;
+    color: #0F395F;
+    font-weight: normal;
+    margin-bottom: 0;
+
+}
+
+
+
+header .bg-header {
+
+    background-image: url("./images/bg-header.svg");
+    height: 1255px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    top: -37.6124267578125px;
+    position: relative;
+}
+
+header .nav-header {
+    padding-top: 65px;
+}
+
+header .navbar .container-fluid {
+    align-items: flex-start;
+}
+
+header .navbar-toggler:focus {
+    border: 0 !important;
+    color: #4681A0 !important;
+}
+
+header .navbar-toggler .navbar-toggler-icon:focus {
+    color: #4681A0 !important;
+
+}
+
+header nav .navbar-nav li a {
+    color: white !important;
+    font: normal normal bold 18px/70px sweetSansPro;
+}
+
+header .home-header-title {
+    color: #FFFFFF;
+    font-size: 90px;
+}
+
+header .home-header-subtitle {
+    font-size: 29px;
+    color: #FFFFFF;
+}
+
+header .trace-pic {
+    position: absolute;
+    top: 0px;
+    right: -300px;
+
+}
+
+header .people-pic {
+    position: absolute;
+    z-index: 1000;
+    top: 300px
+}
+
+header .get-quote {
+    background: #173547;
+    border-radius: 100px;
+    width: 204px;
+    height: 68px;
+    color: #FFFFFF !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .get-quote a {
+    font-weight: bold;
+    font-size: 22px;
+
+    color: #FFFFFF !important;
+}
+
+
+.Hw-are {
+    position: relative;
+
+}
+
+.Hw-are .info-cards {}
+
+.Hw-are .left-colored-trace {
+
+    position: absolute;
+    top: 400px;
+    right: -120px;
+
+}
+
+.Hw-are .info-cards .card {
+    background: #FFFFFF;
+    box-shadow: 8px 16px 32px #1F1F1F14;
+    border-radius: 8px;
+    padding: 20px;
+    border: none;
+}
+
+.Hw-are .info-cards .card .icon {
+    width: 100px;
+    height: 90px;
+}
+
+.Hw-are .info-cards h2 {
+    color: #0F395F;
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.Hw-are .info-cards h3 {
+    color: #0F395F;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* Our Services */
+.our-services p {
+    font-size: 23px;
+    font-weight: 500 !important;
+    letter-spacing: -0.23px;
+    color: #0F395F;
+}
+
+/* New Audiance */
+.new-audiance {
+    background-image: url('./images/new-audiance-banner.svg');
+    width: 100%;
+    height: 940px;
+    position: relative;
+}
+
+.new-audiance h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.new-audiance p {
+    color: #FFFFFF;
+    font-weight: normal;
+    /* 400*/
+    font-size: 22px;
+    width: 477px;
+
+}
+
+.new-audiance .white-trace-header {
+    position: absolute;
+    top: 190px;
+    left: 380px;
+}
+
+.new-audiance .computer-img {
+    position: absolute;
+    z-index: 1000;
+    top: 100px;
+    right: 100px;
+}
+
+.new-audiance .left-colored-trace {
+    position: absolute;
+    bottom: -500px;
+    right: -120px;
+}
+
+/* Software process */
+.software-proces .dev-proces {
+    margin-right: 60px;
+
+
+}
+
+.software-proces .dev-proces .number {
+    width: 126px;
+    height: 126px;
+    background: #4681A0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.software-proces .dev-proces .number span {
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 53px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.software-proces .dev-proces p {
+    font-size: 20px;
+    font-weight: 500;
+
+
+    letter-spacing: -0.2px;
+    color: #0F395F;
+    opacity: 1;
+}
+
+/* Technology Stack */
+.technology-stack {
+    background: #0F395F 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 100px 0;
+}
+
+.technology-stack h2 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.technology-stack img {
+    width: 129px;
+    height: 129px;
+    color: white;
+}
+
+/* free quote */
+.free-quote {
+    background: #F7FAFF 0% 0% no-repeat padding-box;
+    opacity: 0.95;
+    padding: 100px 0;
+}
+
+.free-quote h2 {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #636060;
+}
+.free-quote p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #636060;
+}
+
+
+
+
+
+
+@media (max-width: 1399px) {
+
+    header .navbar-nav {
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 108px;
+        right: 0;
+        left: 0;
+    }
+
+    header .home-header-title {
+        font-size: 60px;
+    }
+
+    header .home-header-subtitle {
+        font-size: 25px;
+    }
+
+    header .trace-pic {
+        display: none;
+
+    }
+
+    header .people-pic {
+        display: none;
+    }
+
+    .Hw-are .left-colored-trace {
+        display: none;
+    }
+
+    .new-audiance .white-trace-header img {
+        display: none;
+    }
+
+    .new-audiance .computer-img img {
+        display: none;
+
+    }
+
+    .new-audiance .left-colored-trace img {
+        display: none;
+    }
+
+    .new-audiance p {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+
+    .Hw-are .left-colored-trace {
+        display: none;
+    }
+
+    .new-audiance .white-trace-header {
+        position: absolute;
+        top: 220px;
+        left: 230px;
+    }
+
+    .new-audiance .computer-img {
+        width: 700px;
+        height: 700px;
+        right: 10px;
+        top: 205px;
+    }
+
+    .new-audiance .left-colored-trace {
+        position: absolute;
+        bottom: -400px;
+        right: -150px;
+    }
+
+
+}
+
+@media (min-width: 1501px) and (max-width: 1700px) {
+
+    header .people-pic .image {
+        width: 650px;
+        height: 650px;
+    }
+
+    header .people-pic {
+
+        width: 700px;
+        height: 700px;
+    }
+
+    .Hw-are .left-colored-trace {
+
+        position: absolute;
+        top: 370px;
+        right: -120px;
+
+
+    }
+
+    .our-services .description p {
+
+        /* width: 1200px;
+        text-indent: -100px;
+        padding-left: 100px; */
+    }
+
+    .new-audiance .white-trace-header {
+        position: absolute;
+        top: 220px;
+        left: 260px;
+    }
+
+    .new-audiance .computer-img {
+        width: 800px;
+        height: 800px;
+        right: 10px;
+        top: 200px;
+    }
+
+    .new-audiance .left-colored-trace {
+        position: absolute;
+        bottom: -400px;
+        right: -150px;
+    }
+
+
+}
+
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1650px !important;
+    }
+
+    header .people-pic {
+
+        width: 867px;
+        height: 867px;
+        top: 300px;
+    }
+
+    .description p {
+        /* width: 1304px;
+        text-indent: -100px;
+        padding-left: 100px; */
+    }
+
+
+}

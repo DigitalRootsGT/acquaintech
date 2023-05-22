@@ -1,0 +1,156 @@
+body {
+    height: 5000px;
+}
+
+header .about-bg-header {
+    background: url("../images/about-bg-header.svg");
+    height: 710px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    top: -37.6124267578125px;
+    position: relative;
+}
+
+header .about-bg-header .trace-pic {
+    position: absolute;
+    top: 80px;
+    right: -100px;
+}
+
+header .about-bg-header h1 {
+    font-weight: 900;
+    font-size: 95px;
+    color: #FFFFFF;
+
+}
+
+header .about-bg-header h2 {
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+}
+
+/* Who We Are */
+
+.Wh-are h4 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #173547;
+}
+
+.Wh-are h2 {
+    font-weight: bold;
+    font-size: 49px;
+    color: #0F395F;
+}
+
+.Wh-are p {
+    font-size: 29px;
+    font-weight: 400;
+    color: #0F395F;
+}
+
+.Wh-are .people-pic {
+    position: relative;
+}
+
+.Wh-are .people-pic div {
+    position: absolute;
+    right: -100px;
+    top: -150px;
+
+}
+
+/* Our Vision */
+.our-vision .pics {
+    position: relative;
+}
+
+.our-vision .pics .people-pic-2 {
+    position: absolute;
+    z-index: 1000;
+    left: -200px;
+}
+
+.our-vision .pics .colored-trace {
+    position: absolute;
+    top: 100px;
+    left: -180px;
+}
+.our-vision h4{
+    font-size: 36px;
+    font-weight: bold;
+    color: #173547;
+}
+.our-vision h2{
+    font-weight: bold;
+    font-size: 49px;
+    color: #0F395F;
+}
+.our-vision p{
+    font-size: 29px;
+    font-weight: 400;
+    color: #0F395F;
+}
+
+@media (min-width:1400px) and (max-width:1600px) {
+    .our-vision .pics .colored-trace {
+        left: -230px;
+    
+    }
+    
+}
+@media (min-width:1400px) and (max-width:1600px) {
+    .our-vision .pics .colored-trace {
+        left: -200px;
+    
+    }
+    
+}
+
+/* @media (min-width:1400px) and (max-width:1820px) {
+    .Wh-are .people-pic div {
+
+        right: -50px;
+
+    }
+
+    .Wh-are .people-pic div img {
+        width: 700px;
+        height: 700px;
+
+    }
+    .our-vision .pics .people-pic-2 {
+        left: -70px;
+    }
+
+    .our-vision .pics .people-pic-2 img{
+        width: 750px;
+        height: 750px;
+    }
+    .our-vision .pics .colored-trace{
+        top: 230px;
+    }
+    .our-vision .pics .colored-trace {
+        left: -70px;
+    
+    }
+
+} */
+
+@media (min-width:1821px) and (max-width:19150px) {
+    .Wh-are .people-pic div {
+
+        right: -160px;
+
+    }
+
+    .Wh-are .people-pic div img {
+        width: 750px;
+        height: 750px;
+
+    }
+
+}
