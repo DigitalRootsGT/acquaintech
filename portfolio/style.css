@@ -1,0 +1,126 @@
+body{
+    height: 5000px;
+}
+#portfolio p{
+    font-size: 29px;
+    font-weight: normal;
+    color: #0F395F;
+}
+
+header .portfolio-bg-header{
+    background: url("../images/portfolio/bg-header.svg");
+    height: 710px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    top: -37.6124267578125px;
+    position: relative;
+}
+header .portfolio-bg-header .trace-pic {
+    position: absolute;
+    top: 80px;
+    right: -100px;
+}
+/* description portfolio */
+.desc-portfolio{
+    position: relative;
+}
+.desc-portfolio h4{
+    font-size: 29px;
+    font-weight: normal;
+    color: #0F395F;
+}
+.desc-portfolio h2{
+    color: #0F395F;
+    font-size: 49px;
+    font-weight: bold;
+}
+.desc-portfolio p{
+    font-size: 29px;
+    font-weight: normal;
+    color: #0F395F;
+}
+.desc-portfolio .circle-pic{
+  
+    position: absolute;
+    top: -130px;
+    z-index: 1000;
+   
+}
+.desc-portfolio .circle-pic img{
+   
+    width:100%;
+    height: 100%;
+}
+.desc-portfolio .colored-icon{
+    position: absolute; 
+   top: 300px;
+    right: -300px;
+}
+/* projects */
+.projects img{
+    width: 100%;
+    height: 100%;
+}
+.projects h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: #173547;
+}
+.projects h4{
+    font-size: 30px;
+    font-weight: medium ;
+    color: #0F395F;
+}
+.projects .second-project-icon{
+    transform: rotate(48deg);
+    width: 286px; 
+    height: 872px
+}
+.projects .second-project-icon img{
+    width: 100%;
+    height: 100%;
+}
+.projects .second-project-pic{
+    top: 0;
+    left: -100px;
+    right: 100px;
+    /* left: -200px;
+    right: 100px;
+    top: 0;
+    bottom: 0; */
+}
+
+@media (max-width: 576px) {
+    header .portfolio-bg-header h1 {
+       
+        font-size: 80px;
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    .projects .second-project-icon{
+    }
+
+    .position-xxl-only-relative{
+        position: relative;
+    }
+    .position-xxl-only-absolute{
+        position: absolute;
+    }
+    
+}
+@media (max-width: 1500px) {
+   
+    .projects .second-project-pic{
+        left: -30px;
+        right: 30px;
+       
+    }
+    
+}
+@media (min-width: 1890px) {
+    .projects .second-project-icon{
+    }
+}

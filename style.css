@@ -31,8 +31,11 @@ p {
 .mt-6 {
     margin-top: 100px !important;
 }
+.mt-9{
+    margin-top: 150px !important;
+}
 
-
+/* global classes */
 .mt-12 {
     margin-top: 200px !important;
 }
@@ -43,6 +46,18 @@ p {
 
 a {
     text-decoration: none;
+}
+header  h3 {
+    font-weight: 900;
+    font-size: 95px;
+    color: #FFFFFF;
+}
+
+header  h4 {
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
 }
 
 .description {
@@ -104,12 +119,12 @@ header nav .navbar-nav li a {
     font: normal normal bold 18px/70px sweetSansPro;
 }
 
-header .home-header-title {
+header h1 {
     color: #FFFFFF;
     font-size: 90px;
 }
 
-header .home-header-subtitle {
+header h2 {
     font-size: 29px;
     color: #FFFFFF;
 }
@@ -153,7 +168,7 @@ header .get-quote a {
 
 .Hw-are .info-cards {}
 
-.Hw-are .left-colored-trace {
+.Hw-are .left-colored-icon {
 
     position: absolute;
     top: 400px;
@@ -312,10 +327,6 @@ header .get-quote a {
     font-size: 20px;
     color: #636060;
 }
-
-
-
-
 
 
 @media (max-width: 1399px) {
