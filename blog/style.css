@@ -1,0 +1,100 @@
+body {
+    position: relative;
+
+}
+
+header {}
+
+header .blog-bg-header {
+    background: url("../images/blog/bg-header.svg");
+    height: 710px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    top: -37.6124267578125px;
+    position: relative;
+}
+
+header .blog-bg-header .white-icon {
+    position: absolute;
+    top: 70px;
+    left: 1482px;
+    transform: rotate(3deg);
+}
+
+header .blog-bg-header .white-icon img {
+    width: 558px;
+    height: 674px;
+}
+/* Main Goal Blog page*/
+.main-goal h2{
+    color: #0F395F;
+    font-size: 49px;
+    font-weight: bold;
+}
+.main-goal p{
+    font-size: 29px;
+    font-weight: normal;
+    color: #0F395F;
+}
+.main-goal .blog-computer-pic{
+   position: absolute;
+   top: 510px;
+   z-index: 1000;
+
+}
+.main-goal .blog-computer-pic img{
+    width: 100%;
+    height: 100%;
+}
+/* Blogs */
+.blogs{
+    margin-top: 150px;
+}
+.blogs .card{
+    border: none;
+}
+.blogs .card-img-top{
+    border-radius: 0;
+}
+.blogs .card h5{
+    font-size: 18px;
+    font-weight: bold;
+    color: #4681A0;
+}
+.blogs .card h6{
+    font-size: 26px;
+    font-weight: 900;
+    color: #173547;
+}
+
+@media (min-width:1400px) and (max-width:1600px) {
+    header .blog-bg-header .white-icon {
+        top: 100px;
+        left: 1100px;
+    }
+    .main-goal .blog-computer-pic{
+        width: 600px;
+        height: 600px;
+    
+    }
+    
+}
+@media (min-width:1601px) and (max-width:1800px) {
+    header .blog-bg-header .white-icon {
+        top: 100px;
+        left: 1300px;
+    }
+    .main-goal .blog-computer-pic{
+        width: 700px;
+        height: 700px;
+    
+    }
+    
+}
+@media (min-width: 1890px) {
+    .blogs{
+        margin-top: 240px !important;
+    }
+    
+}
