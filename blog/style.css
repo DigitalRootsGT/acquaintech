@@ -3,30 +3,16 @@ body {
 
 }
 
-header {}
-
-header .blog-bg-header {
+header .bg-header.blog{
     background: url("../images/blog/bg-header.svg");
+    background-repeat: no-repeat;
+    position: relative;
+
     height: 710px;
     width: 100%;
-    background-repeat: no-repeat;
-    display: block;
-    top: -37.6124267578125px;
-    position: relative;
+
 }
 
-header .blog-bg-header .white-icon {
-    position: absolute;
-    top: 70px;
-    left: 1482px;
-    transform: rotate(3deg);
-}
-
-header .blog-bg-header .white-icon img {
-    width: 558px;
-    height: 674px;
-}
-/* Main Goal Blog page*/
 .main-goal h2{
     color: #0F395F;
     font-size: 49px;
@@ -68,30 +54,6 @@ header .blog-bg-header .white-icon img {
     color: #173547;
 }
 
-@media (min-width:1400px) and (max-width:1600px) {
-    header .blog-bg-header .white-icon {
-        top: 100px;
-        left: 1100px;
-    }
-    .main-goal .blog-computer-pic{
-        width: 600px;
-        height: 600px;
-    
-    }
-    
-}
-@media (min-width:1601px) and (max-width:1800px) {
-    header .blog-bg-header .white-icon {
-        top: 100px;
-        left: 1300px;
-    }
-    .main-goal .blog-computer-pic{
-        width: 700px;
-        height: 700px;
-    
-    }
-    
-}
 @media (min-width: 1890px) {
     .blogs{
         margin-top: 240px !important;

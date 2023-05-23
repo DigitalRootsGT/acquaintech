@@ -50,18 +50,7 @@ p {
 a {
     text-decoration: none;
 }
-header  h3 {
-    font-weight: 900;
-    font-size: 95px;
-    color: #FFFFFF;
-}
 
-header  h4 {
-    font-weight: bold;
-    font-size: 35px;
-    letter-spacing: 0.35px;
-    color: #FFFFFF;
-}
 
 .description {
     /* display: flex;
@@ -86,8 +75,7 @@ header  h4 {
 
 }
 
-
-
+/* global classes header for About,Portfolio, Services,Contact,Blog,Blog Details and Get A Quote */
 header .bg-header {
 
     background-image: url("./images/bg-header.svg");
@@ -122,6 +110,19 @@ header nav .navbar-nav li a {
     font: normal normal bold 18px/70px sweetSansPro;
 }
 
+
+header  h3 {
+    font-weight: 900;
+    font-size: 95px;
+    color: #FFFFFF;
+}
+
+header  h4 {
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+}
 header h1 {
     color: #FFFFFF;
     font-size: 90px;
@@ -131,6 +132,25 @@ header h2 {
     font-size: 29px;
     color: #FFFFFF;
 }
+
+
+header .bg-header .white-icon {
+    position: absolute;
+    top: 70px;
+    left: 1482px;
+    transform: rotate(3deg);
+}
+
+header .bg-header .white-icon img {
+    width: 558px;
+    height: 674px;
+}
+
+
+/* ================================== */
+
+
+
 
 header .trace-pic {
     position: absolute;
@@ -459,6 +479,25 @@ header .get-quote a {
     }
 
 
+}
+
+
+
+@media (min-width:1400px) and (max-width:1600px) {
+    header .bg-header .white-icon {
+        top: 100px;
+        left: 1100px;
+    }
+   
+    
+}
+@media (min-width:1601px) and (max-width:1800px) {
+    header .bg-header .white-icon {
+        top: 100px;
+        left: 1300px;
+    }
+   
+    
 }
 
 @media (min-width: 1920px) {
