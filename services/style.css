@@ -1,0 +1,117 @@
+
+body{
+}
+header .bg-header.services {
+    background: url("../images/services/bg-header.svg");
+    height: 710px;
+}
+
+/* Our Services */
+.our-services {
+    margin-top: 155px;
+}
+
+.our-services h4 {
+    font-size: 29px;
+    font-weight: normal;
+    color: #0F395F;
+}
+
+.our-services h2 {
+    color: #0F395F;
+    font-size: 49px;
+    font-weight: bold;
+}
+
+.our-services p {
+    font-size: 29px;
+    font-weight: normal;
+    color: #0F395F;
+}
+
+.our-services .our-services-pic {
+    position: absolute;
+    top: 510px;
+    z-index: 1000;
+
+}
+
+.our-services .our-services-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.our-services .btn {
+    width: 204px;
+    height: 68px;
+    border-radius: 100px;
+    background: #173547;
+}
+.our-services .btn:hover {
+    background: #173547;
+}
+.our-services .btn:active {
+    background: #173547 !important;
+}
+
+.our-services a {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.our-services a:hover {
+  
+    color: #FFFFFF;
+}
+
+/* Services types */
+.services-type{
+    position: relative;
+
+     border-bottom: 8px solid #DCE0E6; 
+     padding: 37px 0 60px 0; 
+    position: relative;
+}
+
+.services-type p {
+    font-size: 23px;
+    font-weight: 500 !important;
+    letter-spacing: -0.23px;
+    color: #0F395F;
+}
+
+.services-type .icon.active p{
+    color: #4681A0;
+}
+.services-type  .icon.active img{
+    filter: invert(48%) sepia(39%) saturate(520%) hue-rotate(156deg) brightness(89%) contrast(94%);
+}
+.services-type .icon.active::after {
+   
+    content:"";
+    display: block;
+    position: absolute;
+    bottom: -8px;
+  
+    height: 8px;
+    width: 374px;
+    background-color: #4681A0;
+
+}
+.services-type-info p{
+    font-size: 29px;
+    font-weight: normal;
+    color: #0F395F;
+}
+
+/*  Technology Stack */ 
+#services .technology-stack{
+    background: url("../images/new-audiance-banner.svg");
+   
+    width: 100vw;
+    height: 601px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
