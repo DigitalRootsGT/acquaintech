@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sweetSansPro;
-
+    position: relative;
 }
 
 html,
@@ -34,7 +34,8 @@ p {
 .mt-6 {
     margin-top: 100px !important;
 }
-.mt-9{
+
+.mt-9 {
     margin-top: 150px !important;
 }
 
@@ -111,24 +112,25 @@ header nav .navbar-nav li a {
 }
 
 
-header  h3 {
+header .bg-header h3 {
     font-weight: 900;
     font-size: 95px;
     color: #FFFFFF;
 }
 
-header  h4 {
+header .bg-header h4 {
     font-weight: bold;
     font-size: 35px;
     letter-spacing: 0.35px;
     color: #FFFFFF;
 }
-header h1 {
+
+header .bg-header h1 {
     color: #FFFFFF;
     font-size: 90px;
 }
 
-header h2 {
+header .bg-header h2 {
     font-size: 29px;
     color: #FFFFFF;
 }
@@ -162,7 +164,7 @@ header .trace-pic {
 header .people-pic {
     position: absolute;
     z-index: 1000;
-    top: 300px
+    top: 200px;
 }
 
 header .get-quote {
@@ -179,24 +181,20 @@ header .get-quote {
 header .get-quote a {
     font-weight: bold;
     font-size: 22px;
-
+    text-decoration: none;
     color: #FFFFFF !important;
 }
 
 
-.Hw-are {
-    position: relative;
-
-}
-
-.Hw-are .info-cards {}
-
-.Hw-are .left-colored-icon {
-
+/* How we Are */
+.Hw-are .colored-icon {
     position: absolute;
-    top: 400px;
-    right: -120px;
-
+    top: 1700px;
+    left: 1331px;
+    width: 354px;
+    height: 537px;
+    z-index: -1000;
+    transform: rotate(-28deg);
 }
 
 .Hw-are .info-cards .card {
@@ -205,6 +203,7 @@ header .get-quote a {
     border-radius: 8px;
     padding: 20px;
     border: none;
+
 }
 
 .Hw-are .info-cards .card .icon {
@@ -272,6 +271,21 @@ header .get-quote a {
     position: absolute;
     bottom: -500px;
     right: -120px;
+}
+
+.new-audiance .colored-icon {
+    width: 320px;
+    height: 931px;
+    transform: rotate(-28deg);
+    position: absolute;
+    top: 500px;
+    right: 0px;
+   
+}
+
+.new-audiance .colored-icon img {
+    width: 100%;
+    height: 100%;
 }
 
 /* Software process */
@@ -345,12 +359,94 @@ header .get-quote a {
     letter-spacing: 0px;
     color: #636060;
 }
-.free-quote p{
+
+.free-quote p {
     font-weight: 400;
     font-size: 20px;
     color: #636060;
 }
 
+.free-quote input {
+    width: 419px;
+    height: 57px;
+    border: 1px solid #636060;
+    border-radius: 6px;
+    background: #00000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.free-quote input::placeholder {
+    color: #636060;
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 0.6;
+}
+
+.free-quote .btn {
+    width: 193px;
+    height: 57px;
+    background: var(---0f395f) 0% 0% no-repeat padding-box;
+    background: #0F395F 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 34px;
+}
+
+.free-quote .btn:hover {
+    background: var(---0f395f) 0% 0% no-repeat padding-box;
+    background: #0F395F 0% 0% no-repeat padding-box;
+    color: #fff;
+}
+
+.free-quote .btn:active {
+    background: var(---0f395f) 0% 0% no-repeat padding-box;
+    background: #0F395F 0% 0% no-repeat padding-box !important;
+    color: #fff !important;
+
+}
+
+/* Footer */
+.footer {
+    border-bottom: 1px solid #575756;
+    padding-bottom: 20px;
+}
+
+.footer h4 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #0F395F;
+    opacity: 1;
+}
+
+.footer h5 {
+    font-size: 14px;
+    font-weight: meduim;
+    letter-spacing: 0px;
+    color: #575756;
+    opacity: 1;
+}
+
+.footer i {
+    color: #0F395F;
+}
+
+.footer i.social {
+    color: #575756;
+}
+
+/* copy right */
+.copyright {
+    padding: 46px 0;
+    letter-spacing: 0px;
+    color: #575756;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: normal;
+}
 
 @media (max-width: 1399px) {
 
@@ -432,16 +528,7 @@ header .get-quote a {
 
 @media (min-width: 1501px) and (max-width: 1700px) {
 
-    header .people-pic .image {
-        width: 650px;
-        height: 650px;
-    }
 
-    header .people-pic {
-
-        width: 700px;
-        height: 700px;
-    }
 
     .Hw-are .left-colored-trace {
 
@@ -488,34 +575,14 @@ header .get-quote a {
         top: 100px;
         left: 1100px;
     }
-   
-    
+
+
 }
+
 @media (min-width:1601px) and (max-width:1800px) {
     header .bg-header .white-icon {
         top: 100px;
         left: 1300px;
-    }
-   
-    
-}
-
-@media (min-width: 1920px) {
-    .container {
-        max-width: 1650px !important;
-    }
-
-    header .people-pic {
-
-        width: 867px;
-        height: 867px;
-        top: 300px;
-    }
-
-    .description p {
-        /* width: 1304px;
-        text-indent: -100px;
-        padding-left: 100px; */
     }
 
 
