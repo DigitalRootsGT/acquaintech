@@ -280,7 +280,7 @@ header .get-quote a {
     position: absolute;
     top: 500px;
     right: 0px;
-   
+
 }
 
 .new-audiance .colored-icon img {
@@ -434,6 +434,14 @@ header .get-quote a {
     color: #0F395F;
 }
 
+.footer span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #575756;
+    opacity: 1;
+    padding-left: 13px;
+}
+
 .footer i.social {
     color: #575756;
 }
@@ -580,9 +588,10 @@ header .get-quote a {
 }
 
 @media (min-width:1601px) and (max-width:1800px) {
-    .container{
+    .container {
         max-width: 1500px;
     }
+
     header .bg-header .white-icon {
         top: 100px;
         left: 1300px;
@@ -592,8 +601,8 @@ header .get-quote a {
 }
 
 @media (min-width: 1450px) {
-    header .container{
+    header .container {
         max-width: 1500px;
     }
-    
+
 }

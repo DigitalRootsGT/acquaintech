@@ -1,8 +1,8 @@
 body {
-    height: 5000px;
+    position: relative;
 }
 
-header .about-bg-header {
+header .bg-header.about {
     background: url("../images/about/about-bg-header.svg");
     height: 710px;
     width: 100%;
@@ -40,26 +40,51 @@ header .about-bg-header .trace-pic {
     color: #0F395F;
 }
 
-.Wh-are .people-pic {
-    position: relative;
-}
-
-.Wh-are .people-pic div {
+.Wh-are .people-pic{
     position: absolute;
-    right: -100px;
-    top: -150px;
-
-}
+    top: 590px;
+    z-index: 1000;
+ 
+ }
+ .Wh-are .people-pic img{
+     width: 100%;
+     height: 100%;
+ }
 
 /* Our Vision */
+.our-vision{
+    position: relative;
+}
 .our-vision .pics {
     position: relative;
+}
+.our-vision .colored-icon{
+    width: 300px;
+    height: 900px;
+    transform: rotate(33deg);
+    position: absolute;
+    top: 500px;
+    left: 50px;
+}
+.our-vision .colored-icon img{
+    width: 100%;
+    height: 100%;
+}
+.our-vision .people-pic-2{
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.our-vision .people-pic-2 img{
+    width: 100%;
+    height: 100%;
 }
 
 .our-vision .pics .people-pic-2 {
     position: absolute;
     z-index: 1000;
-    left: -200px;
+    left: -300px;
 }
 
 .our-vision .pics .colored-icon {
@@ -83,10 +108,10 @@ header .about-bg-header .trace-pic {
     color: #0F395F;
 }
 
-@media (min-width:1400px) and (max-width:1600px) {
-    .our-vision .pics .colored-icon {
-        left: -230px;
-    
+@media (min-width:1400px) and (max-width:1700px) {
+    .our-vision .people-pic-2 {
+        width: 700px;
+        height: 700px;
     }
     
 }
