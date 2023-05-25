@@ -92,6 +92,17 @@ header .bg-header.portfolio .trace-pic {
     top: 0;
     bottom: 0; */
 }
+.projects .languages{
+    border-color: #DCE0E6;
+    border-style: solid;
+    border-width: 2px 0px 2px 0px;
+    padding: 20px 0;
+}
+.projects .languages i {
+    font-size: 50px;
+    padding-right: 20px;
+    color: #0F395F;
+}
 
 @media (max-width: 576px) {
     header .portfolio-bg-header h1 {
