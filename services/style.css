@@ -105,6 +105,19 @@ header .bg-header.services {
     color: #0F395F;
 }
 
+.service-colored-icon{
+    position: relative;
+}
+.service-colored-icon .colored-pic{
+    width: 276px;
+    height: 800px;
+    transform: rotate(-41deg);
+    z-index: -1000;
+    top: -380px;
+    left: -170px;
+    position: absolute;
+}
+
 /*  Technology Stack */ 
 #services .technology-stack{
     background: url("../images/new-audiance-banner.svg");
@@ -115,3 +128,16 @@ header .bg-header.services {
     left: 50%;
     transform: translateX(-50%);
 }
+@media (min-width: 1700px) {
+    .service-colored-icon .colored-pic{
+        left: -200px;
+    }
+    
+}
+@media (min-width: 1800px) {
+    .service-colored-icon .colored-pic{
+        left: -300px;
+    }
+    
+}
+
