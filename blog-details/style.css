@@ -161,3 +161,18 @@ header .bg-header.blog-details {
     opacity: 1;
     padding: 72px 0;
 }
+.pagination i{
+    font-size: 50px;
+    color: #1C2126;;
+}
+.pagination span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1C2126;
+    margin-left: 20px;
+}
+.pagination p{
+    font-size: 26px;
+    font-weight: bold;
+    color: #1C2126;
+}
