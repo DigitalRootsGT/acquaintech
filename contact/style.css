@@ -65,12 +65,14 @@ header .bg-header.contact {
     border-radius: 16px;
     opacity: 1;
     height: 93px;
+    border: none;
 }
 
 .contact-send-form form textarea {
     background: #F2F4F8 0% 0% no-repeat padding-box;
     border-radius: 16px;
     opacity: 1;
+    border: none;
 }
 
 .contact-send-form form .btn {
