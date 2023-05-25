@@ -52,6 +52,7 @@ header .bg-header.contact {
     background-color: #fff;
     padding: 20px;
     border-radius: 16px;
+    box-shadow: 8px 16px 32px #0000001A;
 }
 
 .contact-send-form .map-pic img {
