@@ -1,5 +1,4 @@
 body{
-    height: 5000px;
 }
 #portfolio p{
     font-size: 29px;
@@ -7,7 +6,7 @@ body{
     color: #0F395F;
 }
 
-header .portfolio-bg-header{
+header .bg-header.portfolio{
     background: url("../images/portfolio/bg-header.svg");
     height: 710px;
     width: 100%;
@@ -16,7 +15,7 @@ header .portfolio-bg-header{
     top: -37.6124267578125px;
     position: relative;
 }
-header .portfolio-bg-header .trace-pic {
+header .bg-header.portfolio .trace-pic {
     position: absolute;
     top: 80px;
     right: -100px;
@@ -120,7 +119,13 @@ header .portfolio-bg-header .trace-pic {
     }
     
 }
-@media (min-width: 1890px) {
-    .projects .second-project-icon{
-    }
+@media (min-width: 1680px) {
+   .desc-portfolio .colored-icon{
+    right: -320px;
+   }
 }
+@media (min-width: 19200px) {
+    .desc-portfolio .colored-icon{
+     right: -430px;
+    }
+ }
