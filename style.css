@@ -580,10 +580,20 @@ header .get-quote a {
 }
 
 @media (min-width:1601px) and (max-width:1800px) {
+    .container{
+        max-width: 1500px;
+    }
     header .bg-header .white-icon {
         top: 100px;
         left: 1300px;
     }
 
 
+}
+
+@media (min-width: 1450px) {
+    header .container{
+        max-width: 1500px;
+    }
+    
 }
